@@ -1,0 +1,13 @@
+# 设置默认行为，自动标准化行结尾
+* text=auto
+
+# 对特定文件类型设置行结尾
+*.js text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+*.md text eol=lf
+
+# 针对不同文件类型的其他设置
+*.png binary
+*.jpg binary
+*.gif binary
