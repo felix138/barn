@@ -1,0 +1,17 @@
+name: norwegian-learning
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - pillow
+  - pip
+  - numpy
+  - tk
+  - pip:
+    - emoji>=2.2.0
+    - SpeechRecognition>=3.8.1
+    - PyAudio>=0.2.11 

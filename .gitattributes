@@ -6,6 +6,9 @@
 *.sh text eol=lf
 *.bat text eol=crlf
 *.md text eol=lf
+*.json text eol=lf
+*.config.js text eol=lf
+*.md text eol=lf
 
 # 针对不同文件类型的其他设置
 *.png binary
